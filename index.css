@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    margin-top: 20px;
+}
+.header{
+    background-image: url("images/back2.jpg");
+    background-size: cover;
+}
