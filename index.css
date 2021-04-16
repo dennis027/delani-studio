@@ -5,4 +5,59 @@ body{
 .header{
     background-image: url("images/back2.jpg");
     background-size: cover;
+    color: aliceblue;
+}
+#siz{
+    font-size: 30px;
+    color: aliceblue;
+}    
+.service{
+    background-image: url("images/back3.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+.design p{
+    display: none;
+}
+.development p{
+    display: none;
+}
+.product p{
+    display: none;
+}
+th , td{
+    border: 30px;
+    padding: 10px;
+}
+#one :hover{
+    color: white;
+    opacity: 0.5;
+}
+#two :hover{
+    color: white;
+    opacity: 0.5;
+}
+#three :hover{
+    color: white;
+    opacity: 0.5;
+}
+#four :hover{
+    color: white;
+    opacity: 0.5;
+}
+#five :hover{
+    color: white;
+    opacity: 0.5;
+}
+#six :hover{
+    color: white;
+    opacity: 0.5;
+}
+#seven :hover{
+    color: aliceblue;
+    opacity: 0.5;
+}
+#eight :hover{
+    color: white;
+    opacity: 0.5;
 }
