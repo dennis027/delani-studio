@@ -21,6 +21,15 @@ $(document).ready(function(){
         $(".development p").hide();
 
     })
+    $(".btn3").click(function(){
+        $(".product p").toggle();
+        $(".btn3").hide();
+       
+    });
+    $(".product p").click(function(){
+        $(".btn3").toggle();
+        $(".product p").hide();
 
+    })
 
 });
