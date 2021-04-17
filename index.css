@@ -38,8 +38,8 @@ th , td{
     opacity: 0.5;
 }
 #three :hover{
-    color: white;
-    opacity: 0.5;
+    color: rgb(176, 184, 184);
+    opacity: 0.9;
 }
 #four :hover{
     color: white;
@@ -60,4 +60,10 @@ th , td{
 #eight :hover{
     color: white;
     opacity: 0.5;
+}
+.color{
+    display: none;
+}
+.footer{
+    background-image: url(images/back1.jpg);
 }
