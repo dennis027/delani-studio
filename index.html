@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="header">
           <br><br><br><br><br><br><br>
           <img src="images/logo.png" alt="logo">
@@ -56,6 +57,7 @@
            </div>
            <br><br><br>
            <div class="row">
+               <h2>WHAT WE DO</h2><br><br><br>
             <div class="col-md-4">
                 <div class="design">
                     <button class="btn"><img src="images/service.png" alt=""></button>
@@ -84,33 +86,35 @@
             </div>
            </div> 
           <br><br><br>
-        <div class="portfolio">
+        
+          <div class="portfolio">
             <H2>PORTFOLIO</H2>
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <table>
-                        <tr>
-                            <th id="one"><img src="images/work4.jpg" height="200px"></th>
-                            <th id="two"><img src="images/work3.jpg" height="200px"></th>
-                            <th id="three"><img src="images/work2.jpg" height="200px"><span class="color">hello</span></th>
-                            <th id="four"><img src="images/work1.jpg" height="200px"></th>
-                        </tr>
-                        <tr>
-                            <td id="five"><img src="images/work5.jpg"height="200px"></td>
-                            <td id="six"><img src="images/work6.jpg" height="200px"></td>
-                            <td id="seven"><img src="images/work7.jpg" height="200px"></td>
-                            <td id="eight"><img src="images/work8.jpg" height="200px"></td>
-                        </tr>
-                    </table>
+                    <div class = row>
+                        <div class= "col-md-6">
+                            <img src="images/work4.jpg" height="200px">
+                            <img src="images/work3.jpg" height="200px">
+                            <img src="images/work2.jpg" height="200px">
+                            <img src="images/work1.jpg" height="200px">
+                        </div>
+                        <div class= "col-md-6">
+                            <img src="images/work5.jpg"height="200px">
+                            <img src="images/work6.jpg" height="200px">
+                            <img src="images/work7.jpg" height="200px">
+                            <img src="images/work8.jpg" height="200px">
+                        </div>    
+                    </div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
         </div>
-        <br><br><br>
+        <br><br><br>  
+        <div class="container">
         <div class="footer">
             <br><br>
-            <h2>CONTACT US</h2><br><br>
+            <h2>CONTACT US</h2><br>
             <form>
                 <div class="row">
                     <div class="col-md-2"></div>
@@ -118,16 +122,26 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <input type="email" placeholder="name@example.com">
-                                  </div>
+                                   <input type="text" id="name" placeholder="Name..." size="35">
+                                </div>
                             </div>
                             <div class="col-md-6">
-
+                                <div class="mb-3">
+                                    <input type="email" id="email" placeholder="Email..." size="33">
+                                  </div> 
                             </div>
                         </div>
+                        <div class="message">
+                            <div class="mb-3">
+                                <input type="text" id="message" placeholder="Your message here..." size="76" height="40">
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" id="submit" placeholder="submit">
+                          </div>
                     </div>
                     <div class="col-md-2"></div>
-
+                   
                 </div>
             </form>
         </div>
@@ -143,9 +157,10 @@
             <img src="images/pinterest.png">
             <img src="images/flickr.png">
         </div>
+        </div>
         <br><br>
-        <H4>DELANI STUDIOS</H4>
-        <P>2019</P>
+        <H5>DELANI STUDIOS</H5>
+        <h5>2019</h5> 
     </div>
 </body>
 </html>
