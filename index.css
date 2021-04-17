@@ -66,4 +66,8 @@ th , td{
 }
 .footer{
     background-image: url(images/back1.jpg);
+    color: aliceblue;
+}
+.social{
+    word-spacing: 10px;
 }
