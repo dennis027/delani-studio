@@ -25,13 +25,14 @@ body{
 .product p{
     display: none;
 }
-th , td{
+#porti{
     border: 30px;
-    padding: 10px;
+    padding: 40px;
 }
 #one :hover{
     color: white;
     opacity: 0.5;
+    margin-right: 10px;
 }
 #two :hover{
     color: white;
@@ -71,12 +72,38 @@ th , td{
 }
 ::placeholder{
     color: azure;
+    text-justify: unset;
 }
 .social{
     word-spacing: 15px;
 }
-#email ,#name{
+#email ,#name ,#message{
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
     
+}
+#message{
+    height: 150px;
+}
+.alert{
+    display: none;
+}
+#one ,#two, #three, #four, #five, #six, #seven, #eight :hover{
+    padding: 10px;
+    
+}
+
+#porti .overlay1{
+    position: absolute;
+    bottom: 230px;
+    left: 180px;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 5px;
+    border: 5px solid white;
+    padding: 30px;
+
+}
+.container{
+    position: relative;
 }
