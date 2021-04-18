@@ -30,6 +30,12 @@ $(document).ready(function(){
         $(".btn3").toggle();
         $(".product p").hide();
 
-    })
-
+    });
+    
+ $(".overla").hide();
+ $("3one").mouseover(function(){
+     $("#one .overlay").show();
+ }).mouseout(function(){
+     $("#one .overlay").hide();
+ })
 });
