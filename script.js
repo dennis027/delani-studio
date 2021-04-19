@@ -32,10 +32,27 @@ $(document).ready(function(){
 
     });
     
- $(".overla").hide();
- $("3one").mouseover(function(){
-     $("#one .overlay").show();
+ $(".overlay1 ,.overlay2 ,.overlay3 ,.overlay4 ").hid();
+ $("#one").mouseover(function(){
+     $("#one .overlay1").show();
  }).mouseout(function(){
-     $("#one .overlay").hide();
+     $("#one .overlay1").hide();
  })
+
+// $(document).ready(function(){
+    $("form#form").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+      var message = $("textarea#comment").val();
+      if ($("input#name").val() && $("input#email").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+
 });
+
