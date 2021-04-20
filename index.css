@@ -1,3 +1,6 @@
+*{
+    font-family: 'Ubuntu Mono', monospace;
+}
 body{
     text-align: center;
     margin-top: 20px;
@@ -110,6 +113,6 @@ body{
 
 .message {
    
-    width: 10000000px;
+    width: 1000px;
     
 }
