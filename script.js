@@ -1,34 +1,34 @@
 $(document).ready(function(){
     $(".btn").click(function(){
-        $(".design p").toggle();
-        $(".btn").hide();
+        $(".design p").toggle(1000);
+        $(".btn").hide(1000);
        
     });
     $(".design p").click(function(){
-        $(".btn").toggle();
-        $(".design p").hide();
+        $(".btn").toggle(1000);
+        $(".design p").hide(1000);
 
     });
 
 
     $(".btn2").click(function(){
-        $(".development p").toggle();
-        $(".btn2").hide();
+        $(".development p").toggle(1000);
+        $(".btn2").hide(1000);
        
     });
     $(".development p").click(function(){
-        $(".btn2").toggle();
-        $(".development p").hide();
+        $(".btn2").toggle(1000);
+        $(".development p").hide(1000);
 
     })
     $(".btn3").click(function(){
-        $(".product p").toggle();
-        $(".btn3").hide();
+        $(".product p").toggle(1000);
+        $(".btn3").hide(1000);
        
     });
     $(".product p").click(function(){
-        $(".btn3").toggle();
-        $(".product p").hide();
+        $(".btn3").toggle(1000);
+        $(".product p").hide(1000);
 
     });
     
@@ -39,20 +39,23 @@ $(document).ready(function(){
      $("#one .overlay1").hide();
  })
 
-// $(document).ready(function(){
-    $("form#form").submit(function(event){
-      // event.preventDefault();
-      var name = $("input#name").val();
-      var email = $("input#email").val();
-      var message = $("textarea#comment").val();
-      if ($("input#name").val() && $("input#email").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
-      }
-      else {
-        alert("Please enter your name and email!");
-      }
-      
-    });
-
 });
 
+$(document).ready(function(){
+    $("form#form1").on('submit',function(event){
+        event.preventDefault();
+        var name = $("input#name").val();
+        var email = $("input#email").val();
+        var message = $("textarea#message").val();
+    
+        if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
+            alert ("Hello " + name + ", Thank you for reaching out, we'll get back to you shortly...");
+        }
+        else if($("input#name").val() && $("input#email").val()){
+            alert("Thank you for reaching ou to us. If you wish to leave a message please type in on the message section..");
+        }
+       else{
+         alert("Please provide correct name or email")
+       }
+    });
+})
