@@ -65,32 +65,51 @@ body{
 .color{
     display: none;
 }
-.footer{
-    background-image: url(images/back1.jpg);
-    color: aliceblue;
-    text-decoration: aliceblue;
-}
-::placeholder{
-    color: azure;
-    text-justify: unset;
-}
-.social{
-    word-spacing: 15px;
-}
-#email ,#name ,#message{
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid white;
-    
-}
-#message{
-    height: 150px;
-}
-.alert{
-    display: none;
-}
+
+#form{
+    background-image: url("images/back1.jpg");
+  }
+  .input{
+    display: inline;
+  
+  }
+  #form input{
+    width:35%;
+    background-color: transparent;
+  
+  }
+  #name{
+    margin-left: 12%;
+    color :white;
+  }
+  #email{
+    margin-left:5%;
+    color: white;
+  }
+  #form textarea{
+    background-color: transparent;
+    color: white;
+  }
+  #email::placeholder{
+    color: white;
+  }
+  
+  #name::placeholder{
+    color: white;
+  }
+  textarea::placeholder{
+    color: white;
+  }
+  .icon{
+    padding-left: 20px;
+  }
 #one ,#two, #three, #four, #five, #six, #seven, #eight :hover{
     padding: 10px;
     
 }
 
-
+.message {
+   
+    width: 10000000px;
+    
+}
